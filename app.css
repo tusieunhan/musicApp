@@ -1,0 +1,63 @@
+:root{
+    --main-color: #F4F5FE;
+    --submain-color: #ffffff;
+    --text-color: #15111E;
+    --subText-color: #676669;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: Poppín, sans-serif;
+    overflow-x: hidden;
+}
+p{
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+ul,li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+.App{
+    max-width: 1440px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.app-left{
+    background-color: var(--submain-color);
+    padding: 30px 30px 0 40px;
+    width: 340px;
+    height: 840px;
+}
+.app-center{
+    width: 73%;
+    padding: 20px 40px;
+}
+.app-right{
+    width: 27%;
+    height: auto;
+    background-color: var(--main-color);
+    padding: 20px 20px 20px 0;
+}
+

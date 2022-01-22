@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./app.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./navbar.css" />
+    <link rel="stylesheet" href="./content.css" >
+    <link rel="stylesheet" href="./play.css" >
+    <link rel="stylesheet" href="./shortcuts.css" >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Music App</title>
+  </head>
+  <body>
+    <div class="App">
+      <div class="app-left">
+        <div class="navbar-header">
+          <div class="navbar-logo">
+            <i class="fas logo-bee-music fa-music"></i>
+            <p>Bee<span>music</span></p>
+          </div>
+          <div class="navbar-button"><i class="fas fa-list-ul"></i></div>
+        </div>
+        <ul class="navbar-list">
+          <li>
+            <a class="navbar-item navbar-item-active" href="">
+              <i class="navbar-item-icon fas fa-home"></i>
+              <span class="navbar-item-text">Home</span>
+            </a>
+          </li>
+          <li>
+            <a class="navbar-item" href="">
+              <i class="navbar-item-icon fas fa-chart-line"></i>
+              <span class="navbar-item-text">Trends</span>
+            </a>
+          </li>
+          <li>
+            <a class="navbar-item" href="">
+              <i class="navbar-item-icon fas fa-compass"></i>
+              <span class="navbar-item-text">Feed</span>
+            </a>
+          </li>
+        </ul>
+        <span class="navbar-title">Discover </span>
+        <ul class="navbar-list">
+          <li >
+            <a class="navbar-item" href="">
+              <i class="navbar-item-icon fas fa-glass-cheers"></i>
+              <span class="navbar-item-text">New & Notable</span>
+            </a>
+          </li>
+          <li>
+            <a class="navbar-item" href="">
+              <i class="navbar-item-icon fas fa-calendar-alt"></i>
+              <span class="navbar-item-text">Release Calendar</span>
+            </a>
+          </li>
+          <li>
+            <a class="navbar-item" href="">
+              <i class="navbar-item-icon fas fa-ticket-alt"></i>
+              <span class="navbar-item-text">Event</span>
+            </a>
+          </li>
+        </ul>
+        <span class="navbar-title">Collection </span>
+        <ul class="navbar-list">
+          <li >
+            <a class="navbar-item" href="">
+              <i class="navbar-item-icon fas fa-heart"></i>
+              <span class="navbar-item-text">Favorite songs</span>
+            </a>
+          </li>
+          <li>
+            <a class="navbar-item" href="">
+              <i class="navbar-item-icon fas fa-users"></i>
+              <span class="navbar-item-text">Artist</span>
+            </a>
+          </li>
+          <li>
+            <a class="navbar-item" href="">
+              <i class="navbar-item-icon fas fa-star"></i>
+              <span class="navbar-item-text">Album</span>
+            </a>
+          </li>
+        </ul>
+        <div class="navbar-user">
+            <a href="" class="navar-user-info">
+                <img src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-1/p480x480/240826453_2975993636023115_4454241435896868815_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=7206a8&_nc_ohc=ddBX8rvS9UwAX_aiikI&_nc_ht=scontent.fsgn5-8.fna&oh=00_AT9n0O8YZstijGJGO3MMXRAp40L2c1Go6jkF0H5gZMDxkw&oe=61EE8888" alt="">
+                <p>Van Tu</p>
+            </a>
+            <a href="" class="navbar-user-icon">
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+        navbar-btn
+      </div>
+      <div class="app-center">
+        <div class="content-header">
+          <div class="header-search">
+            <input class="header-search-input" type="text" placeholder="Search evrything..."> 
+            <div class="header-search-icon">
+                <i class="fas icon-space fa-times"></i>
+                <i class="fas color-gold fa-microphone"></i>
+                <i class="fas color-gold fa-search"></i>
+            </div>
+          </div>
+          <div class="header-social">
+            <i class="far color-gold fa-bell"></i>
+            <i class="fas color-gold fa-adjust"></i>
+          </div>
+        </div>
+        <div class="content-trend">
+            <span class="what-hots">What's hot 🔥</span>
+            <div class="content-trend-title">
+                <h2 class="trend-title-name">Trending</h2>
+                <span class="trend-title-more">More <i class="fas fa-chevron-right"></i></span>
+            </div>
+            <div class="content-trend-banner" style="background-image: url(./img/banner.jpeg);">
+                <div class="content-trend-info">
+                    <span class="banner-tag">Artist</span>
+                    <h1 class="banner-title">On Top <br> Of The World</h1>
+                    <div class="banner-desc">
+                        <div class="banner-btn">
+                            <div class=" btn btn-black banner-btn-play">PLAY</div>
+                            <div class=" btn banner-btn-follow">FOLLOW</div>
+                        </div>
+                        <div class="banner-day">
+                            <span>Monthly listener</span>
+                            <p>29.2000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-trend-title">
+                <h2 class="trend-title-name">My Playlist</h2>
+                <span class="trend-title-more">Show All </span>
+            </div>
+            <div class="playlist-item-title">
+                    <p class="playlist-item-song ">Song</p>
+                    <p class="playlist-item-song ">Artist</p>
+                    <p class="playlist-item-song ">Album</p>
+                    <p class="playlist-item-song ">Time</p>
+            </div>
+            <ul class="playlist-list">
+                <li class="playlist-item playlist-item-active">
+                        <div class="playlist-item-song ">
+                            <img class="song-img playlist-item-song_sub" src="https://menback.com/wp-content/uploads/2022/01/mang-tien-ve-cho-me-750x824.jpg" alt="" >
+                            <p class="song-stt playlist-item-song_sub">1</p>
+                            <p class="song-name playlist-item-song_sub">Mang tiền về cho mẹ</p>
+                        </div>
+                        <p class="playlist-item-song ">Đen</p>
+                        <p class="playlist-item-song ">Hay nhất của Đen</p>
+                        <p class="playlist-item-song ">3:46 <i class="fas color-gold song-action-icon fa-ellipsis-h"></i></p>
+                </li>
+                <li class="playlist-item">
+                        <div class="playlist-item-song ">
+                            <img class="song-img playlist-item-song_sub" src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/8/5/e/c/85ec1ffb3a7d7660d66080cd09ac75d4.jpg" alt="" >
+                            <p class="song-stt playlist-item-song_sub">2</p>
+                            <p class="song-name playlist-item-song_sub">Gieo quẻ (feat Đen)</p>
+                        </div>
+                        <p class="playlist-item-song ">Hoàng Thùy Linh</p>
+                        <p class="playlist-item-song ">Gieo Quẻ - Singe</p>
+                        <p class="playlist-item-song ">4:26 <i class="fas color-gold  song-action-icon fa-ellipsis-h"></i></p>
+                </li>
+                <li class="playlist-item ">
+                        <div class="playlist-item-song ">
+                            <img class="song-img playlist-item-song_sub" src="https://menback.com/wp-content/uploads/2022/01/mang-tien-ve-cho-me-750x824.jpg" alt="" >
+                            <p class="song-stt playlist-item-song_sub">1</p>
+                            <p class="song-name playlist-item-song_sub">Mang tiền về cho mẹ</p>
+                        </div>
+                        <p class="playlist-item-song ">Đen</p>
+                        <p class="playlist-item-song ">Hay nhất của Đen</p>
+                        <p class="playlist-item-song ">3:46 <i class="fas color-gold song-action-icon fa-ellipsis-h"></i></p>
+                </li>
+                <li class="playlist-item">
+                        <div class="playlist-item-song ">
+                            <img class="song-img playlist-item-song_sub" src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/8/5/e/c/85ec1ffb3a7d7660d66080cd09ac75d4.jpg" alt="" >
+                            <p class="song-stt playlist-item-song_sub">2</p>
+                            <p class="song-name playlist-item-song_sub">Gieo quẻ (feat Đen)</p>
+                        </div>
+                        <p class="playlist-item-song ">Hoàng Thùy Linh</p>
+                        <p class="playlist-item-song ">Gieo Quẻ - Singe</p>
+                        <p class="playlist-item-song ">4:26 <i class="fas color-gold  song-action-icon fa-ellipsis-h"></i></p>
+                </li>
+                <li class="playlist-item ">
+                        <div class="playlist-item-song ">
+                            <img class="song-img playlist-item-song_sub" src="https://menback.com/wp-content/uploads/2022/01/mang-tien-ve-cho-me-750x824.jpg" alt="" >
+                            <p class="song-stt playlist-item-song_sub">1</p>
+                            <p class="song-name playlist-item-song_sub">Mang tiền về cho mẹ</p>
+                        </div>
+                        <p class="playlist-item-song ">Đen</p>
+                        <p class="playlist-item-song ">Hay nhất của Đen</p>
+                        <p class="playlist-item-song ">3:46 <i class="fas color-gold song-action-icon fa-ellipsis-h"></i></p>
+                </li>
+                <li class="playlist-item">
+                        <div class="playlist-item-song ">
+                            <img class="song-img playlist-item-song_sub" src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/8/5/e/c/85ec1ffb3a7d7660d66080cd09ac75d4.jpg" alt="" >
+                            <p class="song-stt playlist-item-song_sub">2</p>
+                            <p class="song-name playlist-item-song_sub">Gieo quẻ (feat Đen)</p>
+                        </div>
+                        <p class="playlist-item-song ">Hoàng Thùy Linh</p>
+                        <p class="playlist-item-song ">Gieo Quẻ - Singe</p>
+                        <p class="playlist-item-song ">4:26 <i class="fas color-gold  song-action-icon fa-ellipsis-h"></i></p>
+                </li>
+                <li class="playlist-item ">
+                        <div class="playlist-item-song ">
+                            <img class="song-img playlist-item-song_sub" src="https://menback.com/wp-content/uploads/2022/01/mang-tien-ve-cho-me-750x824.jpg" alt="" >
+                            <p class="song-stt playlist-item-song_sub">1</p>
+                            <p class="song-name playlist-item-song_sub">Mang tiền về cho mẹ</p>
+                        </div>
+                        <p class="playlist-item-song ">Đen</p>
+                        <p class="playlist-item-song ">Hay nhất của Đen</p>
+                        <p class="playlist-item-song ">3:46 <i class="fas color-gold song-action-icon fa-ellipsis-h"></i></p>
+                </li>
+                <li class="playlist-item">
+                        <div class="playlist-item-song ">
+                            <img class="song-img playlist-item-song_sub" src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/8/5/e/c/85ec1ffb3a7d7660d66080cd09ac75d4.jpg" alt="" >
+                            <p class="song-stt playlist-item-song_sub">2</p>
+                            <p class="song-name playlist-item-song_sub">Gieo quẻ (feat Đen)</p>
+                        </div>
+                        <p class="playlist-item-song ">Hoàng Thùy Linh</p>
+                        <p class="playlist-item-song ">Gieo Quẻ - Singe</p>
+                        <p class="playlist-item-song ">4:26 <i class="fas color-gold  song-action-icon fa-ellipsis-h"></i></p>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="content-play">
+            <!-- <p class="content-play-name">Mang tiền về cho mẹ</p> -->
+            <div class="content-play-action">
+                <div class="play-action-btn">
+                    <i class="play-action-icon far fa-heart"></i>
+                    <i class="play-action-icon far fa-square-plus"></i>
+                    <i class="play-action-icon fas fa-expand-alt"></i>
+                </div>
+                <div class="play-action-btn">
+                    <i class="action-icon action-btn__sub fas fa-redo"></i>
+                    <i class="fas action-btn__sub2 fa-fast-backward"></i>
+                    <i class="fas btn-play color-gold fa-play-circle"></i>
+                    <i class="fas action-btn__sub2 fa-fast-forward"></i>
+                    <i class="action-icon action-btn__sub fas fa-random"></i>
+                </div>
+                <div class="play-action-btn">
+                    <i class="fas play-action-icon  fa-volume-down"></i>
+                    <input type="range" min="0" max="100" step="1" value="20" name="" class="seekbar-input-volume" ProgressBar id=""> 
+                </div>
+            </div>
+            <div class="content-play-seekbar">
+                <p class="seekbar-start">0:00</p>
+                <input type="range" min="0" max="100" value="20" step="1" class="seekbar-input-music">
+                <p class="seekbar-end">5:00</p>
+            </div>
+        </div>
+      </div>
+      <div class="app-right">
+        <div class="shortcut-header">
+          <h4 class="shortcut-title">Shortcuts</h4>
+          <div class="shortcut-list">
+            <p class="shortcut-tag">🌸 Chill hits</p>
+            <p class="shortcut-tag">🎤 Hop</p>
+            <p class="shortcut-tag">🎸 Accoustic</p>
+            <p class="shortcut-tag">❤️‍🔥 Indie Pop</p>
+            <p class="shortcut-tag">🎧 Jazz</p>
+            <p class="shortcut-tag">🎹 Piano Blues</p>
+          </div>
+        </div>
+        <div class="fav-center">
+          <h4 class="fav-title">Fav Artist</h4>
+            <ul class="fav-center-list">
+                <li class="fav-center-item">
+                    <div class="fav-center-info">
+                        <img src="https://media-cdn.laodong.vn/Storage/NewsPortal/2021/11/29/979159/Ca-Si-Taylor-Swift.jpg" alt="" class="fav-center-img">
+                        <div class="fav-center-user">
+                            <p class="fav-center-name">Taylor swift</p>
+                            <p class="fav-center-count">134 song in library</p>
+                        </div>
+                    </div>
+                    <i class="fav-center-icon fas fa-ellipsis-h"></i>
+                </li>
+                <li class="fav-center-item">
+                    <div class="fav-center-info">
+                        <img src="https://media-cdn.laodong.vn/Storage/NewsPortal/2021/11/29/979159/Ca-Si-Taylor-Swift.jpg" alt="" class="fav-center-img">
+                        <div class="fav-center-user">
+                            <p class="fav-center-name">Taylor swift</p>
+                            <p class="fav-center-count">134 song in library</p>
+                        </div>
+                    </div>
+                    <i class="fav-center-icon fas fa-ellipsis-h"></i>
+                </li>
+                <li class="fav-center-item">
+                    <div class="fav-center-info">
+                        <img src="https://media-cdn.laodong.vn/Storage/NewsPortal/2021/11/29/979159/Ca-Si-Taylor-Swift.jpg" alt="" class="fav-center-img">
+                        <div class="fav-center-user">
+                            <p class="fav-center-name">Taylor swift</p>
+                            <p class="fav-center-count">134 song in library</p>
+                        </div>
+                    </div>
+                    <i class="fav-center-icon fas fa-ellipsis-h"></i>
+                </li>
+                <li class="fav-center-item">
+                    <div class="fav-center-info">
+                        <img src="https://media-cdn.laodong.vn/Storage/NewsPortal/2021/11/29/979159/Ca-Si-Taylor-Swift.jpg" alt="" class="fav-center-img">
+                        <div class="fav-center-user">
+                            <p class="fav-center-name">Taylor swift</p>
+                            <p class="fav-center-count">134 song in library</p>
+                        </div>
+                    </div>
+                    <i class="fav-center-icon fas fa-ellipsis-h"></i>
+                </li>
+            </ul>
+            <div class="banner-footer">
+                <div class="banner-footer-img">
+                    <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t39.30808-6/267784333_672733617221809_4327061612588247178_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=_rixXLpR5uMAX9WITUY&_nc_ht=scontent.fsgn5-4.fna&oh=00_AT_LVVLIW-_vgCvxeQd5w1MdwTqygmDwGMQuowPDrwKAww&oe=61EF9E9F" alt="" >
+                </div>
+                <div class="banner-footer-info">
+                    <div class="banner-footer-desc">
+                        <p class="banner-footer-desc__name">Mix Thư Giãn</p>
+                        <p class="banner-footer-desc__sub">
+                            Tu Sieu Nhan
+                        </p>
+                    </div>
+                    <i class="far banner-footer-btn fa-plus-square"></i>
+                </div>
+            </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
